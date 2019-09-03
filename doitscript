@@ -1,0 +1,48 @@
+Script started on Thu 29 Aug 2019 10:52:18 PM EDT
+[?1034hbash-4.2$ gcc -o doit doit.c
+bash-4.2$ ./doit
+==>cat /etc/motd
+
+WPI Server - Authorized Use Only
+
+Mail all questions or problems to ITS@wpi.edu or review WPI's
+Information Technology Services web page at https://it.wpi.edu/Help.
+
+Please use the aup command to view the Acceptable Use Policy of the WPI
+network.
+
+This station is for interactive use.
+
+User CPU time 0.000000
+System  CPU time 12.290000
+The total time that process took was 5441.909912
+Involuntarily context switches: 1
+Voluntarily context switches: 1
+Major page faults: 0
+Minor page faults: 208
+==>set prompt = hw1:
+hw1:ls
+a.out  doit.c	   myexec    myFork    prj1.txt
+doit   doitscript  myexec.c  myFork.c  stime
+User CPU time 12.430000
+System  CPU time 27.990000
+The total time that process took was 22518.510010
+Involuntarily context switches: 2
+Voluntarily context switches: 5
+Major page faults: 0
+Minor page faults: 519
+hw1:cd ..
+hw1:ls
+proj1
+User CPU time 12.430000
+System  CPU time 41.660000
+The total time that process took was 28822.840088
+Involuntarily context switches: 3
+Voluntarily context switches: 7
+Major page faults: 0
+Minor page faults: 824
+hw1:exit
+bash-4.2$ exit
+exit
+
+Script done on Thu 29 Aug 2019 10:53:01 PM EDT
